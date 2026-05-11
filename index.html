@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMB STIE Bulungan Tarakan</title>
+    <style>
+        :root {
+            --primary-blue: #004a99;
+            --accent-yellow: #ffd700;
+            --bg-light: #f8f9fa;
+            --text-dark: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-dark);
+        }
+        .mobile-container {
+            width: 100%;
+            max-width: 450px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .logo {
+            width: 120px; /* Ukuran logo disesuaikan agar lebih proporsional */
+            height: auto;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 2px 5px rgba(0,0,0,0.1));
+        }
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-blue);
+            margin: 5px 0;
+            text-transform: uppercase;
+        }
+        .sub-header {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        .welcome-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            color: #444;
+        }
+        .info-panel {
+            background-color: #f0f7ff;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 30px;
+            text-align: left;
+            border-left: 4px solid var(--primary-blue);
+        }
+        .info-item {
+            margin-bottom: 10px;
+        }
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+        .label {
+            font-size: 0.8rem;
+            color: #777;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 2px;
+        }
+        .value {
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+        .password-box {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 1px;
+        }
+        .btn-start {
+            display: block;
+            background-color: var(--primary-blue);
+            color: white;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 74, 153, 0.3);
+        }
+        .btn-start:active {
+            transform: scale(0.96);
+            background-color: #003366;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.75rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="mobile-container">
+    <div class="card">
+        <img src="Logo STIE Bulungan Tarakan.png" alt="Logo STIE Bulungan Tarakan" class="logo">
+        
+        <div class="header-title">PMB STIE Bulungan Tarakan</div>
+        <div class="sub-header">Tahun Akademik 2026/2027</div>
+
+        <p class="welcome-text">Terima kasih telah mendaftar di STIE Bulungan Tarakan. 
+		                        Ujian seleksi dilaksanakan secara online dengan ketentuan sebagai berikut:</p>
+
+        <div class="info-panel">
+            <div class="info-item">
+                <span class="label">Batas Waktu Pengerjaan</span>
+                <span class="value">60 Menit (1 jam)</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Password Ujian Seleksi</span>
+                <span class="value"><span class="password-box">pmb2026</span></span>
+            </div>
+        </div>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgy5TCel6Ts6AASiVbqmCrpzXIKdK3zgKaqO1n5J350ln_iA/viewform" class="btn-start">MULAI UJIAN SEKARANG</a>
+    </div>
+    <div class="footer">
+        &copy; 2026 Sekolah Tinggi Ilmu Ekonomi Bulungan Tarakan
+    </div>
+</div>
+
+</body>
+</html>
